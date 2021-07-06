@@ -1,6 +1,6 @@
-FROM redmine
+FROM bitnami/redmine:4.2.1-debian-10-r31
 
-WORKDIR /usr/src/redmine
+WORKDIR /opt/bitnami/redmine
 
 RUN git clone https://github.com/peclik/clipboard_image_paste.git plugins/clipboard_image_paste
 RUN git clone https://github.com/jgraichen/redmine_dashboard.git plugins/redmine_dashboard
