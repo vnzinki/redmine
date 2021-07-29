@@ -9,7 +9,7 @@ RUN git clone https://github.com/peclik/clipboard_image_paste.git plugins/clipbo
     git clone https://github.com/alexmonteiro/Redmine-Monitoring-Controlling.git plugins/redmine_monitoring_controlling &&\
     git clone https://github.com/sciyoshi/redmine-slack.git plugins/redmine_slack &&\
     git clone https://github.com/paginagmbh/redmine_lightbox2.git plugins/redmine_lightbox2 &&\
-    git clone https://github.com/Nitrino/flatly_light_redmine.git public/themes/flatly_light_redmine &&\
+    git clone https://github.com/agileware-jp/redmine_issue_templates.git plugins/redmine_issue_templates &&\
     git clone https://github.com/mrliptontea/PurpleMine2.git public/themes/purple_mine
 RUN bundle config set --local without 'development test' &&\
     bundle config unset deployment &&\
