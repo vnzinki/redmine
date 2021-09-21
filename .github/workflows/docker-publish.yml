@@ -35,6 +35,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: | 
-            ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:$SHORT_SHA
-            ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
+          tags: ${{ env.IMAGE_NAME }}:$SHORT_SHA,${{ env.IMAGE_NAME }}:latest
