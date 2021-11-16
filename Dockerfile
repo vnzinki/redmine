@@ -10,6 +10,7 @@ RUN git clone https://github.com/peclik/clipboard_image_paste.git plugins/clipbo
     git clone https://github.com/farend/redmine_searchable_selectbox.git plugins/redmine_searchable_selectbox &&\
     git clone https://github.com/HugoHasenbein/redmine_more_filters.git plugins/redmine_more_filters &&\
     git clone -b stable https://github.com/AlphaNodes/additionals.git plugins/additionals &&\
+    git clone https://github.com/imasdetres/redmine_easy_gantt.git plugins/easy_gantt &&\
     git clone https://github.com/mrliptontea/PurpleMine2.git public/themes/purple_mine
 RUN echo 'var _CONF_EXCLUDED_FIELD_ID = ["DescriptionInput"];' >> plugins/redmine_issue_dynamic_edit/assets/javascripts/issue_dynamic_edit_configuration_file.js
 RUN bundle config set --local without 'development test' &&\
