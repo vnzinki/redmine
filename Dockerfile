@@ -13,6 +13,7 @@ RUN git clone https://github.com/peclik/clipboard_image_paste.git plugins/clipbo
     git clone https://github.com/imasdetres/redmine_easy_gantt.git plugins/easy_gantt &&\
     git clone https://github.com/mrliptontea/PurpleMine2.git public/themes/purple_mine
 RUN echo 'var _CONF_EXCLUDED_FIELD_ID = ["DescriptionInput"];' >> plugins/redmine_issue_dynamic_edit/assets/javascripts/issue_dynamic_edit_configuration_file.js
+RUN echo 'div#projects-index table.progress{width: 100%;}' >> plugins/progressive_projects_list/assets/stylesheets/progressive_projects_list.css
 RUN bundle config set --local without 'development test' &&\
     bundle config unset deployment &&\
     bundle install
