@@ -5,7 +5,6 @@ RUN git clone https://github.com/peclik/clipboard_image_paste.git plugins/clipbo
     git clone https://github.com/Ilogeek/redmine_issue_dynamic_edit.git plugins/redmine_issue_dynamic_edit &&\
     git clone https://github.com/paginagmbh/redmine_lightbox2.git plugins/redmine_lightbox2 &&\
     git clone https://github.com/agileware-jp/redmine_issue_templates.git plugins/redmine_issue_templates &&\
-    git clone https://github.com/jgraichen/redmine_dashboard.git plugins/redmine_dashboard &&\
     git clone -b 4.1.x https://github.com/Loriowar/redmine_issues_tree.git plugins/redmine_issues_tree &&\
     git clone https://github.com/farend/redmine_searchable_selectbox.git plugins/redmine_searchable_selectbox &&\
     git clone https://github.com/HugoHasenbein/redmine_more_filters.git plugins/redmine_more_filters &&\
